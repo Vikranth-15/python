@@ -142,3 +142,9 @@ for i in range(0,len(z)):
 b=[1,2,4]
 c=b.copy()
 print(c)
+
+
+# remove a value based on value 
+a=[1,2,3,4,5,6,4,3,2,1]
+a.remove(5)
+print(a)
