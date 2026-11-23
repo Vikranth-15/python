@@ -37,3 +37,17 @@ print(c[0])
 t=(2,3,4,[55,66,77,78])
 t[3][3]=88
 print(t)
+
+#  Packing: Assigning multiple values to a tuple.
+student = ("Rahul", 22, "Java")
+print(student)
+
+
+# Unpacking: Assigning tuple elements to separate variables.
+student = ("Rahul", 22, "Java")
+
+name, age, course = student
+
+print(name)
+print(age)
+print(course)
